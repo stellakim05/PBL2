@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro">
+  <xacro:macro name="forklift_attachment_gazebo" params="prefix">
+    <gazebo reference="${prefix}mast_link">
+      <material>Gazebo/Gray</material>
+    </gazebo>
+
+    <gazebo reference="${prefix}fork_link">
+      <material>Gazebo/Orange</material>
+    </gazebo>
+
+    <gazebo>
+      <plugin name="forklift_controller" filename="libgazebo_ros_control.so">
+        <robotNamespace>raspimouse</robotNamespace>
+      </plugin>
+    </gazebo>
+  </xacro:macro>
+</robot>

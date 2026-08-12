@@ -1,0 +1,27 @@
+# macOS
+.DS_Store
+
+# Unity generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# IDE files
+.vscode/
+.vs/
+.idea/
+
+# Visual Studio / C#
+*.csproj
+*.sln
+*.user
+*.pidb
+*.booproj
+*.svd
+
+# Crash reports
+sysinfo.txt

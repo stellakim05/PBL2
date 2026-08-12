@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<robot name="simple_box_robot">
+
+  <!-- Single link -->
+  <link name="box_link">
+    <visual>
+      <geometry>
+        <box size="1 1 1"/> <!-- Specifies the size of the box: length, width, height -->
+      </geometry>
+      <material name="green"> <!-- Sets the color of the box -->
+        <color rgba="0 1 0 1"/> <!-- RGBA: Red, Green, Blue, Alpha (transparency) -->
+      </material>
+    </visual>
+  </link>
+
+</robot>
